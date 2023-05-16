@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box; /* Визначає блокову модель */
+    padding: 0;
+}
+html, body {
+    min-height: 100vh;
+    font-size: 16px;
+    background: linear-gradient(#F1F4F5, #7A9C9E);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main {
+    max-width: 1040px;
+    margin: 0 auto;
+}
+.section__title {
+    width: 600px;
+    font-size: 1.4em;
+    color: #126A88;
+    padding: 30px;
+    border: 3px solid #2A8D9E;
+    background: aquamarine;
+}
+.section__title_border {
+    box-sizing: border-box;
+}
+.section__title_content {
+    box-sizing: content-box;
+}
+
+.section__title_none {
+    width: 600px;
+    font-size: 1.4em;
+    color: #2A8D9E;
+    padding: 0;
+    margin-bottom: 10px;
+}
